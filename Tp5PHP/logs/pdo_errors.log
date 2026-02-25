@@ -1,0 +1,2 @@
+[2026-02-25 23:03:55] ERROR: Erreur PDO | context={"method":"App\\Database\\DBConnection::get","dsn":"mysql:host=127.0.0.1;port=3306;dbname=gestion_etudiants_pdo;charset=utf8mb4","err":"SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)"}
+[2026-02-25 23:03:55] ERROR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) | context={"method":"App\\Dao\\FiliereDao::insert","sql":"INSERT INTO filiere(code, libelle) VALUES(:code, :libelle)"}
